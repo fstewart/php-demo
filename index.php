@@ -1,7 +1,14 @@
+<?php 
+  // load one time.
+  // Notice that this is using the file system and not the URL.
+  // Always use static strings in require functions for security.
+  require_once('initialize.php'); 
+?>
+
 <?php $title = 'Home'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include(SHARED_PATH . '/head.php'); ?>
+<?php include(SHARED_PATH . '/navbar.php'); ?>
 
 		<div class="container">
 			
@@ -12,4 +19,4 @@
 			
 		</div>
 
-<?php include('footer.php'); ?>
+<?php include(SHARED_PATH . '/footer.php'); ?>

@@ -1,4 +1,6 @@
 <?php
+
+	require_once('initialize.php');
 /**
  * Database connection and Contacts Query.
  */
@@ -39,8 +41,8 @@
 
 <?php $title = 'Skills'; ?>
 <?php $currentPage = 'Skills'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include(SHARED_PATH . '/head.php'); ?>
+<?php include(SHARED_PATH . '/navbar.php'); ?>
 
 		<div class="container">
 			
@@ -82,4 +84,4 @@
 			
 		</div>
 
-<?php include('footer.php'); ?>
+<?php include(SHARED_PATH . '/footer.php'); ?>
