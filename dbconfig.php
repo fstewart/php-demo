@@ -5,12 +5,8 @@
  *
  */
 $host 		=  "localhost";
-$username 	=  "demologin";  //Database username.
-$password 	=  "Alabama2018";  //Database password.
-$database 	=  "phpdemodb"; //Database.
+$username 	=  "";  //Database username.
+$password 	=  "";  //Database password.
+$database 	=  ""; //Database.
 
 ?>
-<!-- $dsn        =  "mysql:host=$host;dbname=$database";
-$options    =  array(
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-              ); -->
